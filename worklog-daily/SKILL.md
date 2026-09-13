@@ -17,18 +17,19 @@ The goal is to capture the technical details that allows the user to reproduce t
     - Resolved problems with their fix.
     - Decisions made with their tradeoffs. 
     - User input and intervention that steered the agent's action. What did the user steer the agent to do, and what was the agent doing wrong or differently? 
-    - Debugging commands that diagnosed something. Reasoning behind any troubleshooting steps taken (files checked, data compared, memory managed, etc). Include code snippets if buggy code was fixed and explain why was that change the key.
+    - Debugging commands that diagnosed something. Reasoning behind any troubleshooting steps taken (files checked, data compared, memory managed, etc). Include code snippets if buggy code was fixed and explain why was that change the key. Use math equations whenever relevant.
     - Operation commands with real effect like builds, deploys, migrations, test runs.
     - Copy commands verbatim from tool calls or shell history, never from memory.
     - Skip commands that led nowhere or are insignificant, unless they led to a troublesome debugging session that produced a lesson worth recording. In that case, record the learning points and the commands that led to it.
     - Check with `git log` first. Attach commits within the time range of the worklog, if any.
 5. Confirm with the user which drafted entries should be included.
 6. Ask the user what are some takeaways or lesson learnt was, never invent it, the point is for the user to recap in their own words. Add details if the user requests for it in the point they bring up in the takeway.
-7. Never overwrite existing content. Update existing content if changes overlap with prior entries. 
+7. Never overwrite existing content. Update existing content if changes overlap with prior entries. Consolidate content if multiple sessions worked on the same task. 
 8. Append the confirmed entries. The format is flexible to allow for different problem types, but the fields provided in `template.md` are recommended for each entry.
 9. Be concise, factual, and technical. Avoid paragraphs. Break into bullet points if many sentences are needed for one section of an entry.
 10. If a project has a `.changelog-id` and has major architectural changes or added features, flag that a `worklog-changelog` entry may be necessary and ask user if the skill should be invoked.
-
+11. Include theories, concepts, and explanations clarified by the user in an appendix section to help user learn.
+12. If necessary, note down learning points to help agents avoid similar mistakes and improve their future performance. 
 
 ## Reference
 

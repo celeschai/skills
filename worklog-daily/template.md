@@ -1,7 +1,7 @@
 ## <YYYY-MM-DD> Worklog 
 
 
-### Task: <problem statement/intended goal>  
+### Task 1: <problem statement/intended goal>  
 
 #### Process: 
   <solution/steps>  (omit for a pure decision)
@@ -17,3 +17,9 @@
 
 #### Lesson: 
   <the user's own takeaway>
+
+
+### Task 2: <problem statement/intended goal>  
+ 
+
+### Appendix (record concepts and explanations clarified by the user)
